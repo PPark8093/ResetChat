@@ -2,7 +2,7 @@
 Please Report Bug!
 
 ---
-# Difference between Chats?
+## Difference between Chats?
 
-Chats = Console
+Chats = Console  
 ResetChat = GUI
