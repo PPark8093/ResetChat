@@ -1,0 +1,2 @@
+# ResetChat
+Please Report Bug!
