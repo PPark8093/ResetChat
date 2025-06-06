@@ -98,7 +98,8 @@ public class Frame1 extends JFrame implements ActionListener {
                 try {
                     // 클라이언트 측 소켓 정보 초기화
                     // Socket(host, port), host: 접속 서버 IP 주소, port: 서버 포트 번호
-                    socket = new Socket("120.143.190.29", 8093);
+                    String hostIP = JOptionPane.showInputDialog(null, "서버의 IP를 입력하세요:", "입력창", JOptionPane.QUESTION_MESSAGE);
+                    socket = new Socket(hostIP, 8093);
                     if (socket != null) {
                         textArea.append("Socket>>" + socket);
 
